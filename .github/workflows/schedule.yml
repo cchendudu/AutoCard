@@ -3,12 +3,12 @@ name: schedule
 # 任务触发
 on:
   # 当 提交到当前仓库时立即运行
-  push:
-    branches: [ main ]
+#   push:
+#     branches: [ main ]
     
-  schedule:
-    # UTC 01:00 和 UTC 04:00
-    - cron: '0 1,4 * * *'
+#   schedule:
+#     # UTC 01:00 和 UTC 04:00
+#     - cron: '0 1,4 * * *'
   
   # 当star当前仓库时立即执行
   watch:
